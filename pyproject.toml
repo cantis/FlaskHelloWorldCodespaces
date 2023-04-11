@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "flaskhelloworldcodespaces"
+version = "0.1.0"
+description = "Test of Flask in Codespaces"
+authors = ["Evan Young <cantis@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+black = "^23.3.0"
+flask = "^2.2.3"
+
+[tool.black]
+line-length = 120
+skip-string-normalization = true
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
